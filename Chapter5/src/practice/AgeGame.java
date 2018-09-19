@@ -37,6 +37,7 @@ public class AgeGame
 		else if(usersAge >= 41 && usersAge <= 50)
 		{
 			result = "Alright buddy, sure ya run a business. Guarantee you're still running the Target bagging aisle.";
+		displayMessage(result);
 		}
 		//0-12
 		//13-18
@@ -45,7 +46,7 @@ public class AgeGame
 		//31-40
 		//41-50
 		//51-60
-		//61-death hahaha
+		//61-death
 	}
 	public static void displayMessage(String result)
 	{
