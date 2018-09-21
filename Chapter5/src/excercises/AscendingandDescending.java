@@ -8,9 +8,9 @@ public class AscendingandDescending {
 		int num1;
 		int num2;
 		int num3;
-		int low;
-		int medium;
-		int high;
+		int low = 0;
+		int medium = 0;
+		int high = 0;
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please input an integer >> ");
 		num1 = input.nextInt();
