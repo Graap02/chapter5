@@ -6,18 +6,18 @@ public class RockPaperScissors {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		String rock;
-		String paper;
-		String scissors;
-		String pchoice;
+		int rock = 1;
+		int paper = 2;
+		int scissors = 3;
+		int pchoice;
 		String result;
-		String gameGuess;
+		int gameGuess;
 		String computerSecret;
 		System.out.println("Welcome to the Rock Paper Scissors game!");
 		System.out.println("We all know how to play this age old game, so no need for rule explanation!");
 		System.out.println("Select your means of battle, whether it be Rock, Paper, or Scissors.");
-		pchoice = input.next();
-		gameGuess = (Math.random() )
+		pchoice = input.nextInt();
+		gameGuess = (int) (Math.random() * 3 + 1);
 		
 		if(pchoice == rock && gameGuess == paper) {
 			result = "You lose! Better luck next time friend.";
