@@ -29,6 +29,10 @@ public class CondoSales {
 			result = "This is not a condo, please choose a condo.";
 		displayMessage(result);
 		}
+	int garageOrPS;
+	
+	
+	
 	public static void displayMessage(String result) 
 	{
 		System.out.print(result);
